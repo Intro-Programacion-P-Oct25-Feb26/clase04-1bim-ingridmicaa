@@ -28,6 +28,6 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);  
-        // \n\t es salto de line y \t es 4 espacios un tabulador
+        // \n es salto de line y \t es 4 espacios un tabulador
     }
 }

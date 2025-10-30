@@ -20,6 +20,7 @@ public class Ejemplo0311 {
         String apellido;
         int nacimiento;
         int ciclo;
+        String direccion;
         
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
@@ -28,19 +29,26 @@ public class Ejemplo0311 {
         System.out.println("Ingrese el apellido del estudiante");
         apellido = entrada.nextLine();
         
+        System.out.println("Ingrese dirección del estudiante");
+        direccion= entrada.nextLine();
         
         System.out.println("Ingrese el año de nacimiento del estudiante");
         nacimiento = entrada.nextInt();
         System.out.println("Ingrese su ciclo académico en número");
         ciclo = entrada.nextInt();
+       
         
         System.out.printf("Datos del estudiante\n Nombre: %s\n Apellido:"
-                + " %s\n Año de nacimiento: %d\n Ciclo académico:%d?+\n", 
+                + " %s\n Año de nacimiento: %d\n Ciclo académico:"
+                + "%d?+\n Dirección del estudiante: %s\n ", 
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
+                ciclo,
+                direccion);
         //hemos cambiado el system printf El porcentaje s a porcentaje d porque
         //representa un numero entero
     }
 }
+k
+        
